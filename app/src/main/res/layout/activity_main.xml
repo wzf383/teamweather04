@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
 
     tools:context="com.example.administrator.teamweather04.MainActivity">
-
+   <!-- 55-->
     <LinearLayout
         android:orientation="horizontal"
 

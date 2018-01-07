@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }else{
 
-
+/////////
                     Message msg = new Message();
                     msg.what =123;
                     handler.sendMessage(msg);

@@ -19,7 +19,15 @@
         </activity>
         <activity android:name=".UserAc" />
         <activity android:name=".AdminAC" />
-        <activity android:name=".Showgrade"></activity>
+        <activity android:name=".Showgrade" />
+        <activity android:name=".StudentGrade" />
+        <activity android:name=".ModPwd" />
+        <activity android:name=".ShowMessage" />
+        <activity android:name=".Showpersongrade" />
+        <activity android:name=".Showgradetype" />
+        <activity android:name=".Adminxhgrade" />
+        <activity android:name=".AdminModPwd" />
+        <activity android:name=".AdminShowMessage"></activity>
     </application>
 
 </manifest>
