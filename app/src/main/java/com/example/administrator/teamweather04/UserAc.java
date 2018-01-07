@@ -25,8 +25,25 @@ public class UserAc extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(UserAc.this,Showgrade.class);
+                intent.setClass(UserAc.this,Showpersongrade.class);
                 startActivity(intent);
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(UserAc.this,ShowMessage.class);
+                startActivity(intent);
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(UserAc.this,ModPwd.class);
+                startActivity(intent);
+
             }
         });
     }
