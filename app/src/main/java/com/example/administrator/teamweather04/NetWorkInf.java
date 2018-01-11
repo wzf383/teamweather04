@@ -15,7 +15,7 @@ import java.net.URL;
  */
 
 public class NetWorkInf {
-    public static final String apiUrl="http://10.10.16.29:8080/phptest/";//接口网址
+    public static final String apiUrl="http://10.10.16.40:8080/phptest/AudroidStuGrade/";//接口网址
     public static String user="";
     public static String pwd="";
     public static String netResponse(String url){  //输入网址，返回json字符串
@@ -63,12 +63,12 @@ public class NetWorkInf {
             return check;
         }else if(!pwd.equals(pwdcfg)){
             check = false;
-            Toast.makeText(ac,"两次密码不一致",Toast.LENGTH_SHORT).show();
+           Toast.makeText(ac,"两次密码不一致",Toast.LENGTH_SHORT).show();
             return check;
 
         }else if(pwd.length()<6){
             check = false;
-            Toast.makeText(ac,"密码要求不少于6位",Toast.LENGTH_SHORT).show();
+           Toast.makeText(ac,"密码要求不少于6位",Toast.LENGTH_SHORT).show();
             return check;
         }else{
             check=true;
